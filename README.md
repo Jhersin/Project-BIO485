@@ -24,21 +24,20 @@ The project explores simple 1D and 2D examples to address this problem. It focus
 ## Features
 - List the main features of your project. This project has 3 main codes
 
-1D_Toy_Remasterd -> 1D Numerical Solution
-Gradient Descent Numpy -> 2D Gradient descent exampl
-Gradient Descent Torch -> 2D Gradient descent example
-Sigpy SENSE -> SENSE library
-Data -> Contain Sensitivity Maps and Knee images
-Utils -> Contain usefull functions.
+-1D_Toy_Remasterd -> 1D Numerical Solution
+-Gradient Descent Numpy -> 2D Gradient descent exampl
+-Gradient Descent Torch -> 2D Gradient descent example
+-Sigpy SENSE -> SENSE library
+-Data -> Contain Sensitivity Maps and Knee images
+-Utils -> Contain usefull functions.
 
 ## Installation
 Provide step-by-step instructions to set up the project:
 
-Setup for 2D example.
-Library 
-pip install sigpy
-conda install maplotlib-pyplot
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+-pip install sigpy
+-conda install maplotlib-pyplot
+-conda install numpy
+-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
 Clone the repository
 git clone [https://github.com/username/repo.git](https://github.com/Jhersin/Project-BIO485.git)
