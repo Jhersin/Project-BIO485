@@ -22,27 +22,34 @@ The project explores simple 1D and 2D examples to address this problem. It focus
 3. [Contributing](#contributing)
 
 ## Features
-- List the main features of your project. This project has 3 main codes
+- List of the main features of the project. This project includes three main codes:
 
--1D_Toy_Remasterd -> 1D Numerical Solution
--Gradient Descent Numpy -> 2D Gradient descent exampl
--Gradient Descent Torch -> 2D Gradient descent example
--Sigpy SENSE -> SENSE library
--Data -> Contain Sensitivity Maps and Knee images
--Utils -> Contain usefull functions.
+  - **1D_Toy_Remasterd**: 1D Numerical Solution  
+  - **Gradient Descent Numpy**: 2D Gradient Descent Example  
+  - **Gradient Descent Torch**: 2D Gradient Descent Example  
+  - **Sigpy SENSE**: SENSE library  
+  - **Data**: Contains Sensitivity Maps and Knee Images  
+  - **Utils**: Contains useful functions  
 
 ## Installation
-Provide step-by-step instructions to set up the project:
+Follow these step-by-step instructions to set up the project:
 
--pip install sigpy
--conda install maplotlib-pyplot
--conda install numpy
--pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+1. Install the required libraries:
+   ```bash
+   pip install sigpy
+   conda install matplotlib
+   conda install numpy
+   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+   ```
 
-Clone the repository
-git clone [https://github.com/username/repo.git](https://github.com/Jhersin/Project-BIO485.git)
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/Jhersin/Project-BIO485.git
+   ```
 
 ## Contributing
-- Robert Reyther
-- Owen Shin
+Contributors to this project include:
+- Robert Reyther  
+- Owen Shin  
 - Jhersin Garcia
+
