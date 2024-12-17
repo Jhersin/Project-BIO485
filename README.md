@@ -1,4 +1,4 @@
-# Project BIO485 - MR Aceleration - Inverse problem
+# Project BIO485 - MR Aceleration - Solving a inverse problem
 
 Magnetic Resonance Imaging (MRI) is a crucial diagnostic tool that allows us to capture detailed images of the inside of our body. However, acquiring these images often takes a long time. One way to speed up this process is by skipping certain lines in the k-space data beyond the Nyquist limit. While this reduces scanning time, it also introduces undesirable artifacts in the images.  
 
@@ -16,13 +16,10 @@ Where:
 
 The project explores simple 1D and 2D examples to address this problem. It focuses on reconstructing \(x\) (the high-resolution image) using methods such as the pseudoinverse matrix and gradient descent.  
 
-
 ## Table of Contents
 1. [Features](#features)
 2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+3. [Contributing](#contributing)
 
 ## Features
 - List the main features of your project. This project has 3 main codes
@@ -43,6 +40,10 @@ pip install sigpy
 conda install maplotlib-pyplot
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
-# Clone the repository
+Clone the repository
 git clone [https://github.com/username/repo.git](https://github.com/Jhersin/Project-BIO485.git)
 
+## Contributing
+- Robert Reyther
+- Owen Shin
+- Jhersin Garcia
