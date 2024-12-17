@@ -2,7 +2,7 @@ import h5py
 import numpy as np
 
 def getinfo():
-    fname_train = 'D:/Base de Datos/Knee/Multi Coil/knee_multicoil_train/file1000001.h5'
+    fname_train = './data/file1000001.h5'
 
     with h5py.File(fname_train, 'r') as f:
         ls = list(f.keys())
