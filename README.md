@@ -2,7 +2,7 @@
 
 Magnetic Resonance Imaging (MRI) is a crucial diagnostic tool that allows us to capture detailed images of the inside of our body. However, acquiring these images often takes a long time. One way to speed up this process is by skipping certain lines in the k-space data beyond the Nyquist limit. While this reduces scanning time, it also introduces undesirable artifacts in the images.  
 
-This project explores a method to skip lines in the k-space domain by treating the problem as an inverse problem. The goal is to reconstruct the best high-resolution image ((\x)\) from the undersampled k-space data ((\s)\). This problem can be expressed mathematically as:  
+This project explores a method to skip lines in the k-space domain by treating the problem as an inverse problem. The goal is to reconstruct the best high-resolution image-x from the undersampled k-space data-s. This problem can be expressed mathematically as:  
 
 $$
 f(x) = \min \|s - Ex\|_2^2 + \lambda \|x\|_2^2
