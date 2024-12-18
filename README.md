@@ -24,7 +24,8 @@ The project explores simple 1D and 2D examples to address this problem. It focus
 ## Features
 - List of the main features of the project. This project includes three main codes:
 
-  - **1D_Toy_Remasterd**: 1D Analytical Solution  
+  - **1D_Toy_Remastered**: 1D Analytical Solution  
+  - **1D_Toy**: Similar to 1D_Toy_Remastered, used to generate some figures 
   - **Gradient Descent Numpy**: 2D Gradient Descent Example  
   - **Gradient Descent Torch**: 2D Gradient Descent Example  
   - **Sigpy SENSE**: SENSE library  
