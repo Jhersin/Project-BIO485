@@ -1,4 +1,4 @@
-# Project BIO485 - MR Aceleration - Solving a inverse problem
+# Project BIO485 - MR Acceleration - Solving a inverse problem
 
 Magnetic Resonance Imaging (MRI) is a crucial diagnostic tool that allows us to capture detailed images of the inside of our body. However, acquiring these images often takes a long time. One way to speed up this process is by skipping certain lines in the k-space data beyond the Nyquist limit. While this reduces scanning time, it also introduces undesirable artifacts in the images.  
 
